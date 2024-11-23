@@ -9,9 +9,11 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" type="text/html">
             <script src="https://cdn.tailwindcss.com"></script>
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         </head>
     <body>
-        <nav>
+        <nav  data-aos="fade-up">
             <h1>Virga</h1>
             <ul>
                 <li>About Me</li>
@@ -49,7 +51,7 @@
                 </div>
                 
         </div>
-        <section
+        <section  data-aos="fade-up"
         class="flex flex-col pt-16 px-6 lg:px-16 lg:px-[133px] justify-center items-center"
       >
         <h2 class="text-3xl font-bold mb-4 md:mb-12 md:text-5xl">
@@ -99,7 +101,7 @@
         </div>
       </section>
   
-      <section
+      <section  data-aos="fade-up"
         class="w-full pt-16 px-6 lg:px-[133px] lg:px-16 flex flex-col md:flex-row md:justify-between md:items-start"
       >
         <div class="md:w-1/2">
@@ -154,7 +156,7 @@
         </div>
       </section>
   
-      <section
+      <section data-aos="fade-up"
         class="w-full flex flex-col py-16 px-4 text-center gap-y-4 md:max-w-[360px] md:mx-auto"
       >
         <h2 class="text-3xl font-bold md:text-5xl">Thank You</h2>
@@ -162,7 +164,8 @@
           Do you have great idea and want to share. Let’s make something amazing
           together
         </p>
-        <div class="flex flex-col md:flex-row gap-2 mx-auto w-full">
+        <div class="flex flex-col md:flex-row gap-2 mx-auto w-full" >
+            <a href="https://www.instagram.com/virga_l_k?igsh=MWYzdHRhNTNqZWY4Mw=="></a>
           <button class="bg-blue-700 px-4 w-full md:w-1/2 py-2 rounded-xl">
             <div class="flex flex-row gap-x-2 justify-center items-center">
               <img src="./assets/ic-instagram.png" class="w-[16px] h-[16px]" />
@@ -209,4 +212,7 @@
   
 
     </body>
+    <script>
+        AOS.init();
+      </script>
     </html>
